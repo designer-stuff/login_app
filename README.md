@@ -7,7 +7,7 @@ To run backend successfully on your local machine you need to install
 ```
 MongoDB
 ```
-Download it here [MongoDb - Community Server Edition](https://www.mongodb.com/download-center/community)
+[MongoDb - Community Server Edition](https://www.mongodb.com/download-center/community)
 
 **Remember**: Check the checkbox to install Atlas
 
@@ -16,7 +16,7 @@ Install dependencies for backend as well as frontend
 ```
 npm install
 ```
-Open ```CMD``` and go to the folder containing backend and start node server
+Open __CMD__ and go to the folder containing backend and start node server
 ```
 node index.js
 ```
