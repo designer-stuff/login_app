@@ -1,0 +1,6 @@
+{
+  "privateKey": "",
+  "db": "mongodb://localhost:27017/login",
+  "port": "3900",
+  "requiresAuth": true
+}

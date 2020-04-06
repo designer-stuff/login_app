@@ -1,0 +1,61 @@
+2020-04-03T08:11:27.741Z error: uncaughtException: failed
+  No stack trace
+2020-04-03T08:23:19.139Z error: uncaughtException: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\node_modules\mongoose\lib\error\serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\node_modules\mongoose\lib\connection.js:823:32)
+    at Mongoose.connect (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\node_modules\mongoose\lib\index.js:333:15)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\index.js:19:10)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-04-04T12:37:22.720Z error: uncaughtException: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\node_modules\mongoose\lib\error\serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\node_modules\mongoose\lib\connection.js:823:32)
+    at Mongoose.connect (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\node_modules\mongoose\lib\index.js:333:15)
+    at module.exports (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\startup\db.js:5:12)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\index.js:6:24)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-04-04T12:54:37.465Z error: uncaughtException: Cannot find module '../routes/logins'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\index.js
+Error: Cannot find module '../routes/logins'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\startup\routes.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\index.js:7:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+2020-04-04T12:55:18.704Z error: uncaughtException: login is not defined
+ReferenceError: login is not defined
+    at module.exports (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\startup\routes.js:11:25)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\Login\app_login_backend\index.js:7:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
