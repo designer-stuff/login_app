@@ -12,13 +12,14 @@ import "./App.css";
 
 class App extends Component {
   state = {
-    genres: []
+    genres: [],
   };
 
   async componentDidMount() {
-    const { data: genres } = await getGenres();
-
-    this.setState({ genres });
+    try {
+      const { data: genres } = await getGenres();
+      this.setState({ genres });
+    } catch (ex) {}
   }
 
   render() {
@@ -31,7 +32,7 @@ class App extends Component {
           <Route path="/api/logout" component={Logout} exact></Route>
           <Route
             path="/api/register"
-            render={props => <Register {...props}></Register>}
+            render={(props) => <Register {...props}></Register>}
             exact
           ></Route>
           <Route
@@ -41,7 +42,7 @@ class App extends Component {
           ></Route>
           <Route
             path="/api/genres"
-            render={props => <Genre genres={genres} {...props}></Genre>}
+            render={(props) => <Genre genres={genres} {...props}></Genre>}
             exact
           ></Route>
           <Redirect from="/" to="/api/auth"></Redirect>
