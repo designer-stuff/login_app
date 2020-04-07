@@ -8,17 +8,12 @@ import { login } from "../services/authService";
 class Login extends Form {
   state = {
     data: { email: "", password: "" },
-    errors: {}
+    errors: {},
   };
 
   schema = {
-    email: Joi.string()
-      .email()
-      .required()
-      .label("Email"),
-    password: Joi.string()
-      .required()
-      .label("Password")
+    email: Joi.string().email().required().label("Email"),
+    password: Joi.string().required().label("Password"),
   };
 
   doSubmit = async () => {
