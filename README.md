@@ -27,7 +27,7 @@ Set the private key
 ```
 SET privateKey='ANYSECRETKEY'
 ```
-This private key is required for JSON web tokens that will define a unique signation. [Learn more](https://jwt.io/)
+This private key is required for JSON web tokens that will give a unique signature for every user who logs in to the application. [Learn more](https://jwt.io/)
 Start backend server
 ```
 node index.js
