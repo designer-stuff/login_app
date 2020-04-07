@@ -11,6 +11,11 @@ MongoDB
 
 **Remember**: Check the checkbox to install Atlas
 
+Start MongoDb server on your local machine in __CMD__
+```
+mongod
+```
+
 ### Installing
 Install dependencies for backend as well as frontend
 ```
